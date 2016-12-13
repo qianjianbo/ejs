@@ -1,0 +1,160 @@
+//
+   Created by lanou on 16/9/12.
+doctype
+html
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    meta(name="description" content)
+    meta(name="author" content)
+    link(rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css")
+    link(rel="stylesheet" href="index.css")
+    title EJS
+body(data-spy="scroll")
+    header#header.header
+        div.container
+            h1.logo.pull-left
+                a.scrollto(href="#promo")
+                    span.logo-title EJS
+        nav#min-nav.main-nav.navbar-right(role="navigation")
+            div.navbar-header
+                button.navbar-toggle(type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="true")
+                    span.sr-only Toggle navigation
+                    span.icon-bar
+                    span.icon-bar
+                    span.icon-bar
+            div.navbar-collapsecollapse#navbar-collapse(aria-expanded="false" style="height:1px")
+                ul.nav.navbar-nav
+                    li.nav-item.sr-only.active Home
+                    li.nav-item
+                        a.scrollto(href="#about") about
+                    li.nav-item
+                        a.scrollto(href="#features") Features
+                    li.nav-item
+                        a.scrollto(href="#install") Get Started
+                    li.nav-item
+                        a.scrollto(href="#Docs") Docs
+                    li.nav-item
+                        a.scrollto(href="#Support") Support
+                    li.nav-item
+                        a.scrollto(href="#License") License
+                    li.nav-item
+                        a.scrollto(href="https://github.com/mde/ejs") GitHub
+section.promo.section.offset-header#promo
+    div.container.text-center
+        h2.title
+            span(style="font-size: 60%;") <%=
+            p EJS
+            span(style="font-size: 60%;") %>
+        P.intro Effective JavaScript templating.
+        div.btns
+             a.btn.btn-cta-secondary.scrollto(href="#install") Get Started
+        ul.meta.list-inline
+             li &nbsp
+    div.social-media
+        div.social-media-inner.container.text-center
+            ul.list-inline
+section#about.about.section
+    div.container
+        h2.title.text-center What is EJS?
+    p.intro.text-center  "E" is for "effective." EJS is a simple templating language that lets you generate HTML markup with plain JavaScript. No religiousness about how to organize things. No reinvention of iteration and control-flow.  It's just plain JavaScript.
+    div.row
+        div.item.col-md-4.col-sm-6.col-xs-12
+            div.icon-holder
+                i.fa.fa-heart
+            div.content
+                h3.sub-title Use plain JavaScript
+                p We love JavaScript. It's a totally friendly language. All templating languages grow to be Turing-complete. Just cut out the middle-man, and use JS!
+        div.item.col-md-4.col-sm-6.col-xs-12
+            div.icon-holder
+                i.fa.fa-heart
+            div.content
+                h3.sub-title Use plain JavaScript
+                p We love JavaScript. It's a totally friendly language. All templating languages grow to be Turing-complete. Just cut out the middle-man, and use JS!
+        div.item.col-md-4.col-sm-6.col-xs-12
+            div.icon-holder
+                i.fa.fa-heart
+            div.content
+                h3.sub-title Use plain JavaScript
+                p We love JavaScript. It's a totally friendly language. All templating languages grow to be Turing-complete. Just cut out the middle-man, and use JS!
+        div.item.col-md-4.col-sm-6.col-xs-12
+            div.icon-holder
+                i.fa.fa-heart
+            div.content
+                h3.sub-title Use plain JavaScript
+                p We love JavaScript. It's a totally friendly language. All templating languages grow to be Turing-complete. Just cut out the middle-man, and use JS!
+        div.item.col-md-4.col-sm-6.col-xs-12
+            div.icon-holder
+                i.fa.fa-heart
+            div.content
+                h3.sub-title Use plain JavaScript
+                p We love JavaScript. It's a totally friendly language. All templating languages grow to be Turing-complete. Just cut out the middle-man, and use JS!
+        div.item.col-md-4.col-sm-6.col-xs-12
+            div.icon-holder
+                i.fa.fa-heart
+            div.content
+                h3.sub-title Use plain JavaScript
+                p We love JavaScript. It's a totally friendly language. All templating languages grow to be Turing-complete. Just cut out the middle-man, and use JS!
+section#features.features.section
+    div.container.text-center
+        h2.title
+            p Features
+    ul.feature-list.list-unstyled
+        li
+            i.fa.fa-check
+                p Fast compilation and rendering
+        li
+            i.fa.fa-check
+                p Simple template tags: <% %>
+        li
+            i.fa.fa-check
+                p Custom delimiters (e.g., use <? ?> instead of <% %>
+        li
+            i.fa.fa-check
+                p Includes
+        li
+            i.fa.fa-check
+                p Both server JS and browser support
+        li
+            i.fa.fa-check
+                p Static caching of intermediate JavaScript
+        li
+            i.fa.fa-check
+                p Static caching of templates
+        li
+            i.fa.fa-check
+                p Complies with the
+section#install.install.section
+    div.container
+        div.install-inner
+            h2.title.text-center Get Started
+            div.block
+                h3.sub-title.text-center Install
+                p It's easy to install EJS with NPM.
+                div.code-block
+                    pre.language-bash
+                        code.language-bash h3.sub-title.text-center.__web-inspector-hide-shortcut__ Use
+
+                p Pass EJS a template string and some data. BOOM, you've got some HTML.
+                    span.token.keyword var ejs
+                    span.token.operator =
+                    span.token.function require
+                    sapn.token.punctuation (
+                    sapn.token.string ejs
+                    span.token.punctuation )
+                    sapn.token.punctuation ,people
+                    sapn.token.operator =
+                    sapn.token.punctuation ]
+
+
+
+
+
+
+
+
+
+
+script(src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js")
+script(src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js")
+

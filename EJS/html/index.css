@@ -1,0 +1,227 @@
+body{
+    color: #444444;
+    font-size: 16px;
+    -webkit-font-smoothing:antialiased ;
+    font-family: "Georgia", "Xin Gothic", "Hiragino Sans GB", "Droid Sans Fallback", "Microsoft YaHei", "SimSun", sans-serif;
+}
+.header{
+    padding: 10px 0;
+    background:#b4ca65 ;
+    color: #ffffff;
+    position: fixed;
+    width:100%;
+}
+.hader .logo{
+    margin: 0;
+    font-size: 26px;
+    padding-top: 10px;
+}
+.pull-left{
+    float: left !important;
+}
+.hader .logo a{
+    color: #ffffff;
+}
+.header .main-nav button{
+
+    background: #607026;
+    color: #ffffff!important;
+    border-radius: 4px;
+    background-clip: padding-box;
+}
+.header .main-nav button .icon-bar{
+    background: #ffffff;
+}
+.header .main-nav .nav .nav-item a{
+    color: #809633;
+    font-size: 14px;
+    padding: 15px 10px;
+    background: #b4ca65;
+}
+.header .main-nav .nav .nav-item.active {
+    color: #b4ca65;
+
+}
+
+.nav-item a:hover {
+    color: #607026;
+}
+.header.navbar-fixed-top .main-nav .nav .nav-item a {
+    color: #666666;
+}
+.header .main-nav .nav .nav-item{
+    font-weight: normal;
+    margin-right: 30px;
+    font-family:'Montserrat', sans-serif
+}
+.promo{
+    background: #b4ca65;
+    color: #ffffff;
+    padding-top: 150px;
+}
+.promo .title{
+    font-size: 98px;
+    color: #607026;
+    margin-top: 0;
+}
+.promo .title {
+    color: #a91e50;
+}
+.title p{
+    display: inline-block;
+}
+h2{
+    font-weight: 700;
+    font-family:'Montserrat', sans-serif ;
+}
+.promo .btns .btn{
+    margin-right: 15px ;
+    font-size: 18px;
+    padding: 8px 30px;
+}
+a.btn-cta-secondary, .btn-cta-secondary{
+    background: #bf225a;
+    border:1px solid #bf225a;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.btn a.btn{
+    transition: all 0.4s ease-in-out;
+}
+.promo .meta{
+    margin-top: 120px;
+    margin-bottom: 30px;
+    color: #809633;
+}
+.promo .social-media{
+    background: #90a93a;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+.about{
+    padding: 36px 0;
+    background: #f5f5f5;
+}
+.about .title{
+    color: #607026;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+.about .intro{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+.about .item{
+    position: relative;
+    margin-bottom: 30px;
+}
+.about .item .icon-holder{
+    position: absolute;
+    left:30px;
+    top:0;
+}
+.about .item .icon-holder .fa{
+    font-size: 24px;
+    color: #a91e50;
+}
+.fa{
+    display: inline-block;
+    font:normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.about .item .content{
+    padding-left: 60px;
+}
+.about .item .content .sub-title{
+    margin-top: 0;
+    color: #a91e50;
+    font-size: 18px;
+}
+.h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.features{
+    padding:36px 0;
+    background: #b4ca65;
+    color: #ffffff;
+}
+.features .title p{
+    color: #607026;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.features .feature-list li p{
+    margin-bottom: 10px;
+    color: #607026;
+    text-align: center;
+}
+.features .feature-list li .fa{
+    margin-right: 5px;
+    color: #ffffff;
+
+}
+.fa {
+    width: 100%;
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.install{
+    padding:36px 0;
+    background: #f5f5f5;
+}
+.install .install-inner{
+    max-width: 800px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 4px;
+    background-clip: padding-box;
+    margin: 0 auto;
+}
+.install .title {
+    color: #607026;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.install .block{
+    margin-bottom: 45px;
+}
+.install .code-block pre[class*="language-"]{
+    background-clip: padding-box;
+    border-radius: 4px;
+}
+code[class*="language-"], pre[class*="language-"] {
+    color: #f8f8f2;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+    font-family: Consolas, Monaco, 'Andale Mono', monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    line-height: 1.5;
+tab-size: 4;
+}
+pre code {
+    font-size: 16px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #b4ca65;
+}
+pre[class*="language-"] {
+    background: #272822;
+}
+pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+}
